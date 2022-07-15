@@ -1,0 +1,5 @@
+INSERT INTO application (application_id,app_name,description,owner) values (1,'Trackzilla','A bug tracking application','vinodh');
+INSERT INTO application (application_id,app_name,description,owner) values (2,'Expenses','An application used to submit expenses','vinodh');
+INSERT INTO application (application_id,app_name,description,owner) values (3,'Bookings','A application used to book tickets','vinodh');
+INSERT INTO application (application_id,app_name,description,owner) values (4,'Invoice Search','An application used to search invoices','vinodh');
+INSERT INTO application (application_id,app_name,description,owner) values (5,'Audits','An application used for auditing purposes','vinodh');

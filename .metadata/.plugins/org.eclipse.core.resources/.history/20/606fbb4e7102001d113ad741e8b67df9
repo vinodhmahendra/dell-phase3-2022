@@ -1,0 +1,17 @@
+package simplilearn.service;
+
+import java.util.List;
+
+import simplilearn.entity.Application;
+import simplilearn.resource.Applcation;
+
+public interface ApplicationService {
+	List<Application> listApplication();
+	
+	public Application applicationById(Integer id);
+	
+	public Application save(Application theApplication);
+
+	Applcation deleteById(int applicationId);
+
+}

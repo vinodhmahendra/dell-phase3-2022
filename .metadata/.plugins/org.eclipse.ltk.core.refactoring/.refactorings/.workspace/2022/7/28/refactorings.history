@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename Java project &apos;01-bug-tracker-h2-jpa&apos; to &apos;01-track-zilla-h2-jpa&apos;&#x0D;&#x0A;- Original element: &apos;01-bug-tracker-h2-jpa&apos;&#x0D;&#x0A;- Renamed element: &apos;01-bug-tracker-h2-jpa&apos;&#x0D;&#x0A;- Update references to refactored element" description="Rename Java project &apos;01-bug-tracker-h2-jpa&apos;" flags="7" id="org.eclipse.jdt.ui.rename.java.project" input="=01-bug-tracker-h2-jpa" name="01-track-zilla-h2-jpa" references="true" stamp="1657254249292" version="1.0"/>
+</session>

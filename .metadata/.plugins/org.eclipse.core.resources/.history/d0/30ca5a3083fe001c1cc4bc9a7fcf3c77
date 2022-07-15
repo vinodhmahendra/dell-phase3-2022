@@ -1,0 +1,25 @@
+package simplilearn;
+
+import org.springframework.boot.CommandLineRunner;
+import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
+import org.springframework.context.annotation.Bean;
+
+import simplilearn.entity.Application;
+import simplilearn.repository.ApplicationRepository;
+
+@SpringBootApplication
+public class ApplicationTracker {
+
+	public static void main(String[] args) {
+		SpringApplication.run(ApplicationTracker.class, args);
+	}
+	
+	@Bean
+	public CommandLineRunner demo (ApplicationRepository repository) {
+		return (args) -> {
+			repository.save(new Application(null, null, null))
+		}
+	}
+
+}

@@ -1,0 +1,5 @@
+package simplilearn.entity;
+
+public class Release {
+
+}

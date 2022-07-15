@@ -1,0 +1,18 @@
+#logging.level.org.springframework: DEBUG
+
+# H2 Overide Defaults
+spring.h2.console.enabled=true
+spring.h2.console.path=/h2
+
+spring.datasource.url=jdbc:h2:mem:bugtracker
+spring.jpa.defer-datasource-initialization=true
+spring.jpa.show-sql=true
+spring.jpa.hibernate.ddl-auto=create
+
+management.endpoints.web.exposure.include==*
+
+# H2 Defaults
+#spring.datasource.username=sa
+#spring.datasource.password=
+
+#server.port=9090

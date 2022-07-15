@@ -1,0 +1,10 @@
+package simplilearn.entity;
+
+public class Applicaton {
+	
+	private Integer id;
+	private String name;
+	private String descripton;
+	private String owner;
+
+}
